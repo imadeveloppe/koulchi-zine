@@ -1,0 +1,123 @@
+<wpml-config>
+	<admin-texts>
+		<key name="puna_opt">
+			<key name="opt-contact-text"/>
+			<key name="opt-read-more-text"/>
+			<key name="opt-footer-text"/>
+			<key name="puna-admin-email-template"/>
+			<key name="puna-users-email-template"/>
+			<key name="puna-gallery-sort"/>
+			<key name="puna-main-slider">
+				<key name="0">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="1">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="2">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+			</key>
+			<key name="puna-slide-show-desc"/>
+			<key name="puna-property-highlights">
+				<key name="0">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="1">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="2">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="3">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="4">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+			</key>
+			<key name="puna-clients">
+				<key name="0">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="1">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="2">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="3">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="4">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="5">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="6">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+				<key name="7">
+					<key name="title"/>
+					<key name="description"/>
+					<key name="url"/>
+				</key>
+			</key>
+			<key name="puna-spec-ext-title"/>
+			<key name="puna-spec-ext-items">
+				<key name="0"/>
+				<key name="1"/>
+				<key name="2"/>
+				<key name="3"/>
+				<key name="4"/>
+			</key>
+			<key name="puna-spec-int-title"/>
+			<key name="puna-spec-int-items">
+				<key name="0"/>
+				<key name="1"/>
+				<key name="2"/>
+				<key name="3"/>
+				<key name="4"/>
+			</key>
+			<key name="puna-spec-bed-title"/>
+			<key name="puna-spec-bed-items">
+				<key name="0"/>
+				<key name="1"/>
+				<key name="2"/>
+				<key name="3"/>
+				<key name="4"/>
+			</key>
+		</key>
+	</admin-texts>
+</wpml-config>

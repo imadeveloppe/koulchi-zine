@@ -1,0 +1,135 @@
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
+#ravis_slideshow_wrapper .slideshow_images li {
+  float: left;
+  width: 105px;
+  margin: 3px;
+  border: 3px solid #f2f1f6;
+  position: relative; }
+  #ravis_slideshow_wrapper .slideshow_images li img {
+    width: 100%;
+    height: auto; }
+  #ravis_slideshow_wrapper .slideshow_images li a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: red; }
+
+.postbox-container .ui-slider {
+  width: 80%;
+  display: inline-block; }
+  .postbox-container .ui-slider + input[type="text"] {
+    display: inline-block; }
+
+.ravis-meta-field-title h4 {
+  display: inline-block; }
+
+.list-unstyled, .list-inline {
+  padding-left: 0;
+  list-style: none; }
+
+.list-inline {
+  margin-left: -5px; }
+  .list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 30%; }
+
+#add_room_container .dynamic-room {
+  padding: 15px;
+  border: 1px solid #f1f1f1;
+  background: #f1f1f1;
+  margin-bottom: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; }
+  #add_room_container .dynamic-room:before, #add_room_container .dynamic-room:after {
+    content: " ";
+    display: table; }
+  #add_room_container .dynamic-room:after {
+    clear: both; }
+  #add_room_container .dynamic-room label {
+    margin-right: 15px;
+    display: inline-block;
+    width: 110px; }
+  #add_room_container .dynamic-room input[type="text"], #add_room_container .dynamic-room select {
+    width: 150px; }
+  #add_room_container .dynamic-room .check-in-container, #add_room_container .dynamic-room .check-out-container {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px; }
+    #add_room_container .dynamic-room .check-in-container .datepicker, #add_room_container .dynamic-room .check-out-container .datepicker {
+      max-width: 67%; }
+  #add_room_container .dynamic-room .room_select, #add_room_container .dynamic-room .adult-select, #add_room_container .dynamic-room .children-select {
+    float: left;
+    width: 50%;
+    margin-bottom: 20px; }
+  #add_room_container .dynamic-room .btn-container {
+    width: 100%;
+    clear: both; }
+  #add_room_container .dynamic-room button {
+    margin-right: 10px; }
+  #add_room_container .dynamic-room .status_message {
+    display: inline-block;
+    margin-top: 5px; }
+  #add_room_container .dynamic-room.filled {
+    background-color: #f2dede; }
+    #add_room_container .dynamic-room.filled .status_message {
+      color: #a94442; }
+  #add_room_container .dynamic-room.available {
+    background-color: #dff0d8; }
+    #add_room_container .dynamic-room.available .status_message {
+      color: #3c763d; }
+
+#add_room_booking {
+  margin-bottom: 20px; }
+
+.event-guest-list {
+  text-align: center;
+  background-color: #eee;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 100%;
+  padding-bottom: 20px 10px;
+  margin: 30px 0 10px; }
+  .event-guest-list td, .event-guest-list th {
+    line-height: 35px;
+    border-bottom: 1px solid #FFF; }
+    .event-guest-list td a, .event-guest-list th a {
+      text-decoration: none;
+      color: red;
+      display: inline-block;
+      padding-top: 15px; }
+  .event-guest-list tr:last-child td {
+    border-bottom: 0; }
+
+.img_uploader_post_meta img {
+  max-width: 100%; }
+
+#booking-overview-page {
+  padding: 30px 30px 30px 10px; }
+  #booking-overview-page h1 {
+    text-align: center;
+    margin: 20px 0; }
+  #booking-overview-page #calendar {
+    line-height: 40px;
+    text-align: center; }
+    #booking-overview-page #calendar .fc-view > table {
+      background: #FFFFFF; }
+    #booking-overview-page #calendar .fc-event.hover-event {
+      background: #b60d19;
+      color: #02043d; }

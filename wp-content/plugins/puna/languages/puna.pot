@@ -1,0 +1,662 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Puna Plugin\n"
+"POT-Creation-Date: 2016-08-30 11:39+0330\n"
+"PO-Revision-Date: 2016-08-30 11:39+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: fields/agent.php:23
+msgid "Title"
+msgstr ""
+
+#: fields/agent.php:24
+msgid ""
+"Add the title of the agent like : \"Manager\", \"Certificated Agent\" and "
+"etc."
+msgstr ""
+
+#: fields/agent.php:29 fields/booking.php:28 shortcode.class.php:1160
+msgid "Email"
+msgstr ""
+
+#: fields/agent.php:30
+msgid "Add the email of the agent"
+msgstr ""
+
+#: fields/agent.php:35 fields/booking.php:34 shortcode.class.php:1163
+msgid "Phone"
+msgstr ""
+
+#: fields/agent.php:36
+msgid "Add phone number of agent"
+msgstr ""
+
+#: fields/agent.php:41
+msgid "Fax"
+msgstr ""
+
+#: fields/agent.php:42
+msgid "Add fax number of agent"
+msgstr ""
+
+#: fields/agent.php:47
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: fields/agent.php:48
+msgid "Add the contact7 shortcode for the agent in this field."
+msgstr ""
+
+#: fields/agent.php:53
+msgid "Alignment"
+msgstr ""
+
+#: fields/agent.php:54
+msgid ""
+"You can change the alignment of agent's box in your view. Change the "
+"alignment to \"Right\" by checking the checkbox"
+msgstr ""
+
+#: fields/agent.php:67 fields/amenities.php:43 fields/booking.php:66
+msgid "Additional information"
+msgstr ""
+
+#: fields/amenities.php:23
+msgid "More Details"
+msgstr ""
+
+#: fields/amenities.php:24
+msgid "Add the more details like : \"2700 SqFt\""
+msgstr ""
+
+#: fields/amenities.php:29
+msgid "Icon"
+msgstr ""
+
+#: fields/amenities.php:30
+msgid "Add the title of icon in this field, like : \"puna-ic-land-size\""
+msgstr ""
+
+#: fields/booking.php:22
+msgid "Name"
+msgstr ""
+
+#: fields/booking.php:23
+msgid "Add the name of guest."
+msgstr ""
+
+#: fields/booking.php:29
+msgid "Add the email of guest."
+msgstr ""
+
+#: fields/booking.php:35
+msgid "Add the phone number of guest."
+msgstr ""
+
+#: fields/booking.php:40
+msgid "Check in Date"
+msgstr ""
+
+#: fields/booking.php:41
+msgid "Add the date that guest want to visit."
+msgstr ""
+
+#: fields/booking.php:46
+msgid "Check in Time"
+msgstr ""
+
+#: fields/booking.php:47
+msgid "Add the time that guest want to visit"
+msgstr ""
+
+#: fields/booking.php:52
+msgid "Message"
+msgstr ""
+
+#: fields/booking.php:53
+msgid "Add the the message of guest"
+msgstr ""
+
+#: fields/page_id_class.php:22
+msgid "Page ID"
+msgstr ""
+
+#: fields/page_id_class.php:23
+msgid ""
+"Add your custom ID for using it to change the default style. List of the "
+"default page IDs are <a href=\"#\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: fields/page_id_class.php:28
+msgid "Page Class"
+msgstr ""
+
+#: fields/page_id_class.php:29
+msgid ""
+"Add your custom class for using it to change the default style. List of the "
+"default page classes are <a href=\"#\" target=\"_blank\">here</a>"
+msgstr ""
+
+#: fields/page_id_class.php:34
+msgid "Page Breadcrumb Background"
+msgstr ""
+
+#: fields/page_id_class.php:36
+msgid "Upload your desired image as page's breadcrumb."
+msgstr ""
+
+#: fields/page_id_class.php:50
+msgid "Page Setting"
+msgstr ""
+
+#: fields/page_id_class.php:93
+msgid "Choose Image"
+msgstr ""
+
+#: fields/page_id_class.php:94
+msgid "Remove Image"
+msgstr ""
+
+#: puna.php:153
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: puna.php:192 ravisButtons.php:23 ravisButtons.php:45
+#: shortcode.class.php:90
+msgid "Testimonials"
+msgstr ""
+
+#: puna.php:193
+msgid "Manage the testimonials which is given by your users."
+msgstr ""
+
+#: puna.php:206 ravisButtons.php:30
+msgid "Services"
+msgstr ""
+
+#: puna.php:207
+msgid "Manage the services that you provide."
+msgstr ""
+
+#: puna.php:221 ravisButtons.php:24
+msgid "Attractions"
+msgstr ""
+
+#: puna.php:222
+msgid "Manage the attraction which are located around your property."
+msgstr ""
+
+#: puna.php:236 ravisButtons.php:29
+msgid "Amenities"
+msgstr ""
+
+#: puna.php:237
+msgid "Manage the amenities of your property.."
+msgstr ""
+
+#: puna.php:251
+msgid "Agents"
+msgstr ""
+
+#: puna.php:252
+msgid "Manage the agents of property."
+msgstr ""
+
+#: puna.php:266
+msgid "Booking"
+msgstr ""
+
+#: puna.php:267
+msgid "Manage the Booking posts."
+msgstr ""
+
+#: puna.php:332
+msgid "We are NOT available. Please try other dates and hours."
+msgstr ""
+
+#: puna.php:455
+msgid "New Booking Information was  in your website. Booking ID : "
+msgstr ""
+
+#: puna.php:489
+msgid "Thanks for your booking."
+msgstr ""
+
+#: puna.php:494
+msgid "Please fill the required fields."
+msgstr ""
+
+#: puna.php:546
+msgid "Booked for : "
+msgstr ""
+
+#: puna.php:617
+msgid "Your Booking is confirmed. Booking ID is : "
+msgstr ""
+
+#: ravisButtons.php:15
+msgid "Insert"
+msgstr ""
+
+#: ravisButtons.php:19
+msgid "ShortCode : "
+msgstr ""
+
+#: ravisButtons.php:21
+msgid "Select a shortcode"
+msgstr ""
+
+#: ravisButtons.php:22
+msgid "Main Slider"
+msgstr ""
+
+#: ravisButtons.php:25
+msgid "Social Icons"
+msgstr ""
+
+#: ravisButtons.php:26
+msgid "Main Gallery"
+msgstr ""
+
+#: ravisButtons.php:27
+msgid "Agent Boxes"
+msgstr ""
+
+#: ravisButtons.php:28
+msgid "Property Highlight"
+msgstr ""
+
+#: ravisButtons.php:31
+msgid "Clients"
+msgstr ""
+
+#: ravisButtons.php:32
+msgid "Video Tour"
+msgstr ""
+
+#: ravisButtons.php:33
+msgid "Slide Show"
+msgstr ""
+
+#: ravisButtons.php:34
+msgid "Contact Section"
+msgstr ""
+
+#: ravisButtons.php:35
+msgid "Property Specs"
+msgstr ""
+
+#: ravisButtons.php:36
+msgid "Text Section"
+msgstr ""
+
+#: ravisButtons.php:37
+msgid "Booking Overview"
+msgstr ""
+
+#: ravisButtons.php:39
+msgid "Please select the shortcode you want to add."
+msgstr ""
+
+#: ravisButtons.php:41
+msgid "This shortcode doesn't have any attributes"
+msgstr ""
+
+#: ravisButtons.php:44 ravisButtons.php:56 ravisButtons.php:80
+#: ravisButtons.php:112 ravisButtons.php:129 ravisButtons.php:141
+#: ravisButtons.php:158 ravisButtons.php:170 ravisButtons.php:187
+#: ravisButtons.php:194 ravisButtons.php:215
+msgid "Title : "
+msgstr ""
+
+#: ravisButtons.php:46
+msgid "Add title of testimonial section in this field."
+msgstr ""
+
+#: ravisButtons.php:49 ravisButtons.php:66 ravisButtons.php:122
+#: ravisButtons.php:134 ravisButtons.php:151 ravisButtons.php:163
+msgid "Count : "
+msgstr ""
+
+#: ravisButtons.php:51
+msgid "Add how many testimonials you want to show."
+msgstr ""
+
+#: ravisButtons.php:57 shortcode.class.php:166
+msgid "Nearby Attractions"
+msgstr ""
+
+#: ravisButtons.php:58
+msgid "Add title of attractions section in this field."
+msgstr ""
+
+#: ravisButtons.php:61 ravisButtons.php:117 ravisButtons.php:146
+#: ravisButtons.php:199
+msgid "Subtitle : "
+msgstr ""
+
+#: ravisButtons.php:62 shortcode.class.php:167
+msgid "Check the attractions of city in nearby of home"
+msgstr ""
+
+#: ravisButtons.php:63
+msgid "Add subtitle of attractions section in this field."
+msgstr ""
+
+#: ravisButtons.php:68
+msgid "Add how many attractions you want to show."
+msgstr ""
+
+#: ravisButtons.php:73
+msgid "ID : "
+msgstr ""
+
+#: ravisButtons.php:75
+msgid "Add the id attribute of the social icons container."
+msgstr ""
+
+#: ravisButtons.php:81 shortcode.class.php:337
+msgid "Our Gallery"
+msgstr ""
+
+#: ravisButtons.php:82
+msgid "Add title of main gallery section in this field."
+msgstr ""
+
+#: ravisButtons.php:85
+msgid "Image Count : "
+msgstr ""
+
+#: ravisButtons.php:87
+msgid "Add how many images you want to show in main gallery."
+msgstr ""
+
+#: ravisButtons.php:92 ravisButtons.php:206
+msgid "Type : "
+msgstr ""
+
+#: ravisButtons.php:94
+msgid "archive"
+msgstr ""
+
+#: ravisButtons.php:95
+msgid "single"
+msgstr ""
+
+#: ravisButtons.php:97
+msgid "Select the type of agent box."
+msgstr ""
+
+#: ravisButtons.php:100
+msgid "Agent Count : "
+msgstr ""
+
+#: ravisButtons.php:102
+msgid "Add how many agent box you want to show in your page."
+msgstr ""
+
+#: ravisButtons.php:105
+msgid "Agent ID : "
+msgstr ""
+
+#: ravisButtons.php:107
+msgid "Add ID of agent you want to show in your page."
+msgstr ""
+
+#: ravisButtons.php:113 shortcode.class.php:548
+msgid "Property Highlights"
+msgstr ""
+
+#: ravisButtons.php:114
+msgid "Add title of property highlights section in this field."
+msgstr ""
+
+#: ravisButtons.php:118 shortcode.class.php:549
+msgid "List of great property highlights"
+msgstr ""
+
+#: ravisButtons.php:119
+msgid "Add subtitle of property highlights section in this field."
+msgstr ""
+
+#: ravisButtons.php:124
+msgid "Add how many property highlights you want to show."
+msgstr ""
+
+#: ravisButtons.php:130 shortcode.class.php:605
+msgid "Our Amenities"
+msgstr ""
+
+#: ravisButtons.php:131
+msgid "Add title of amenities section in this field."
+msgstr ""
+
+#: ravisButtons.php:136
+msgid "Add how many amenities you want to show."
+msgstr ""
+
+#: ravisButtons.php:142 shortcode.class.php:669
+msgid "Our Services"
+msgstr ""
+
+#: ravisButtons.php:143
+msgid "Add title of services section in this field."
+msgstr ""
+
+#: ravisButtons.php:147 shortcode.class.php:670
+msgid "Our professional agents provide special services for you"
+msgstr ""
+
+#: ravisButtons.php:148
+msgid "Add subtitle of services section in this field."
+msgstr ""
+
+#: ravisButtons.php:153
+msgid "Add how many services you want to show."
+msgstr ""
+
+#: ravisButtons.php:159 shortcode.class.php:735
+msgid "Our Clients"
+msgstr ""
+
+#: ravisButtons.php:160
+msgid "Add title of clients section in this field."
+msgstr ""
+
+#: ravisButtons.php:165
+msgid "Add how many clients you want to show."
+msgstr ""
+
+#: ravisButtons.php:171 shortcode.class.php:791
+msgid "Video Overview"
+msgstr ""
+
+#: ravisButtons.php:172
+msgid "Add title of video tour section in this field."
+msgstr ""
+
+#: ravisButtons.php:175
+msgid "URL : "
+msgstr ""
+
+#: ravisButtons.php:177
+msgid "Add the url of your video tour."
+msgstr ""
+
+#: ravisButtons.php:180
+msgid "Description : "
+msgstr ""
+
+#: ravisButtons.php:182
+msgid "Add your description you want to be shown above the video section."
+msgstr ""
+
+#: ravisButtons.php:188 shortcode.class.php:834
+msgid "Property Slide Show"
+msgstr ""
+
+#: ravisButtons.php:189
+msgid "Add title of slide show section in this field."
+msgstr ""
+
+#: ravisButtons.php:195 shortcode.class.php:907
+msgid "Our Location"
+msgstr ""
+
+#: ravisButtons.php:196
+msgid "Add title of contact section in this field."
+msgstr ""
+
+#: ravisButtons.php:201
+msgid "Add subtitle of contact section in this field."
+msgstr ""
+
+#: ravisButtons.php:208
+msgid "Simple"
+msgstr ""
+
+#: ravisButtons.php:209
+msgid "With Buttons"
+msgstr ""
+
+#: ravisButtons.php:210
+msgid "With Image"
+msgstr ""
+
+#: ravisButtons.php:212
+msgid "Select the type of Text Section."
+msgstr ""
+
+#: ravisButtons.php:217
+msgid "Add title of text section in this field."
+msgstr ""
+
+#: ravisButtons.php:220
+msgid "Text : "
+msgstr ""
+
+#: ravisButtons.php:222
+msgid "Add content you want to show in text section."
+msgstr ""
+
+#: ravisButtons.php:225
+msgid "Image URL : "
+msgstr ""
+
+#: ravisButtons.php:227
+msgid "Add the url of image you want to show in text section."
+msgstr ""
+
+#: ravisButtons.php:230
+msgid "Button 1 Text : "
+msgstr ""
+
+#: ravisButtons.php:232
+msgid "Add title of first button in text section."
+msgstr ""
+
+#: ravisButtons.php:235
+msgid "Button 1 URL : "
+msgstr ""
+
+#: ravisButtons.php:237
+msgid "Add URL of first button in text section."
+msgstr ""
+
+#: ravisButtons.php:240
+msgid "Button 2 Text : "
+msgstr ""
+
+#: ravisButtons.php:242
+msgid "Add title of second button in text section."
+msgstr ""
+
+#: ravisButtons.php:245
+msgid "Button 2 URL : "
+msgstr ""
+
+#: ravisButtons.php:247
+msgid "Add URL of second button in text section."
+msgstr ""
+
+#: shortcode.class.php:71 shortcode.class.php:411 shortcode.class.php:875
+msgid "There is not any slides"
+msgstr ""
+
+#: shortcode.class.php:142
+msgid "There is not any testimonials"
+msgstr ""
+
+#: shortcode.class.php:220
+msgid "More"
+msgstr ""
+
+#: shortcode.class.php:228
+msgid "There is not any attractions"
+msgstr ""
+
+#: shortcode.class.php:361
+msgid "All"
+msgstr ""
+
+#: shortcode.class.php:370
+msgid "Filters"
+msgstr ""
+
+#: shortcode.class.php:405
+msgid "No Image"
+msgstr ""
+
+#: shortcode.class.php:456
+msgid "Please add the agent ID."
+msgstr ""
+
+#: shortcode.class.php:507
+msgid "Contact Me"
+msgstr ""
+
+#: shortcode.class.php:528
+msgid "There is no agent to show. "
+msgstr ""
+
+#: shortcode.class.php:937
+msgid "Schedule A Visit"
+msgstr ""
+
+#: shortcode.class.php:1153
+msgid "Schedule a Visit"
+msgstr ""
+
+#: shortcode.class.php:1157
+msgid "Your Name"
+msgstr ""
+
+#: shortcode.class.php:1167
+msgid "Choose a date"
+msgstr ""
+
+#: shortcode.class.php:1170
+msgid "Choose the time"
+msgstr ""
+
+#: shortcode.class.php:1174
+msgid "Your Message"
+msgstr ""
+
+#: shortcode.class.php:1178
+msgid "Book Now"
+msgstr ""
