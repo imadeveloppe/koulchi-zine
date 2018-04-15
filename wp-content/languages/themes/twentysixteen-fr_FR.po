@@ -1,15 +1,14 @@
-# Translation of Themes - Twenty Sixteen in French (France)
-# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+# Translation of Twenty Sixteen in French (France)
+# This file is distributed under the same license as the Twenty Sixteen package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-08 21:16:31+0000\n"
+"PO-Revision-Date: 2016-01-25 15:05:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: fr\n"
-"Project-Id-Version: Themes - Twenty Sixteen\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Twenty Sixteen\n"
 
 #. Theme Name of the plugin/theme
 msgid "Twenty Sixteen"
@@ -31,7 +30,7 @@ msgstr "Modifier<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Continuer la lecture<span class=\"screen-reader-text\"> de &laquo;&nbsp;%s&nbsp;&raquo;</span>"
 
-#: inc/customizer.php:283
+#: inc/customizer.php:246
 msgid "Red"
 msgstr "Rouge"
 
@@ -39,7 +38,7 @@ msgstr "Rouge"
 #: comments.php:31
 msgctxt "comments title"
 msgid "One thought on &ldquo;%s&rdquo;"
-msgstr "Une réflexion sur « %s »"
+msgstr "Une pensée sur &ldquo;%s&rdquo;"
 
 #: searchform.php:16
 msgctxt "submit button"
@@ -51,7 +50,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Recherche&hellip;"
 
-#: searchform.php:13
+#: searchform.php:13 searchform.php:14
 msgctxt "label"
 msgid "Search for:"
 msgstr "Recherche pour :"
@@ -64,7 +63,7 @@ msgstr "Menu principal de pied"
 msgid "Footer Social Links Menu"
 msgstr "Menu de liens sociaux de pied"
 
-#: functions.php:158
+#: functions.php:144
 msgid "Add widgets here to appear in your sidebar."
 msgstr "Ajoutez des widgets ici pour les faire apparaître dans votre barre latérale."
 
@@ -150,35 +149,35 @@ msgctxt "Used before post author name."
 msgid "Author"
 msgstr "Auteur"
 
-#: inc/customizer.php:293
+#: inc/customizer.php:256
 msgid "Yellow"
 msgstr "Jaune"
 
-#: inc/customizer.php:273
+#: inc/customizer.php:236
 msgid "Gray"
 msgstr "Gris"
 
-#: inc/customizer.php:263
+#: inc/customizer.php:226
 msgid "Dark"
 msgstr "Foncé"
 
-#: inc/customizer.php:184
+#: inc/customizer.php:171
 msgid "Secondary Text Color"
 msgstr "Seconde couleur du texte"
 
-#: inc/customizer.php:253
+#: inc/customizer.php:216
 msgid "Default"
 msgstr "Par défaut"
 
-#: inc/customizer.php:172
+#: inc/customizer.php:159
 msgid "Main Text Color"
 msgstr "Couleur du texte principal"
 
-#: inc/customizer.php:160
+#: inc/customizer.php:147
 msgid "Link Color"
 msgstr "Couleur des liens"
 
-#: inc/customizer.php:145
+#: inc/customizer.php:132
 msgid "Page Background Color"
 msgstr "Couleur du fond de page"
 
@@ -187,7 +186,7 @@ msgctxt "Parent post link"
 msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
 msgstr "<span class=\"meta-nav\">Publié dans</span><span class=\"post-title\">%title</span>"
 
-#: inc/customizer.php:130
+#: inc/customizer.php:117
 msgid "Base Color Scheme"
 msgstr "Jeu de couleurs de base"
 
@@ -213,7 +212,7 @@ msgstr "Image suivante"
 msgid "Previous Image"
 msgstr "Image précédente"
 
-#: header.php:47
+#: header.php:45
 msgid "Menu"
 msgstr "Menu"
 
@@ -221,18 +220,18 @@ msgstr "Menu"
 msgid "Skip to content"
 msgstr "Aller au contenu principal"
 
-#: functions.php:284
+#: functions.php:270
 msgid "expand child menu"
 msgstr "ouvrir le sous-menu"
 
-#: functions.php:285
+#: functions.php:271
 msgid "collapse child menu"
 msgstr "fermer le sous-menu"
 
 #. translators: If there are characters in your language that are not supported
 #. by Merriweather, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:203
+#: functions.php:189
 msgctxt "Merriweather font: on or off"
 msgid "on"
 msgstr "on"
@@ -240,7 +239,7 @@ msgstr "on"
 #. translators: If there are characters in your language that are not supported
 #. by Montserrat, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:208
+#: functions.php:194
 msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr "on"
@@ -248,32 +247,32 @@ msgstr "on"
 #. translators: If there are characters in your language that are not supported
 #. by Inconsolata, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:213
+#: functions.php:199
 msgctxt "Inconsolata font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:166
+#: functions.php:152
 msgid "Content Bottom 1"
 msgstr "Contenu du bas 1"
 
-#: functions.php:176
+#: functions.php:162
 msgid "Content Bottom 2"
 msgstr "Contenu du bas 2"
 
-#: functions.php:168 functions.php:178
+#: functions.php:154 functions.php:164
 msgid "Appears at the bottom of the content on posts and pages."
 msgstr "S&nbsp;affiche en bas du contenu des articles et des pages."
 
-#: functions.php:156
+#: functions.php:142
 msgid "Sidebar"
 msgstr "Barre latérale"
 
-#: functions.php:89 header.php:62
+#: functions.php:78 header.php:60
 msgid "Social Links Menu"
 msgstr "Menu des liens de réseaux sociaux"
 
-#: functions.php:88 header.php:51
+#: functions.php:77 header.php:49
 msgid "Primary Menu"
 msgstr "Menu principal"
 
@@ -290,8 +289,8 @@ msgstr "Les commentaires sont fermés."
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "%1$s réflexion sur « %2$s »"
-msgstr[1] "%1$s réflexions sur « %2$s »"
+msgstr[0] "%1$s pensée sur &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s pensées sur &ldquo;%2$s&rdquo;"
 
 #: archive.php:51 image.php:60 index.php:48 search.php:39
 #: template-parts/content-page.php:27 template-parts/content-single.php:29
@@ -323,7 +322,7 @@ msgstr "https://wordpress.org/themes/twentysixteen/"
 msgid "the WordPress team"
 msgstr "l'équipe WordPress"
 
-#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.4)  #-#-#-#-#
+#. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.1)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:51
 msgid "https://wordpress.org/"

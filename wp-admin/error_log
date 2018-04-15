@@ -1,0 +1,5 @@
+[15-Jan-2016 15:04:09 UTC] PHP Warning:  POST Content-Length of 11055015 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[19-Jan-2016 11:09:32 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/functions.shortcodes.php on line 32
+[19-Jan-2016 11:09:48 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/functions.shortcodes.php on line 32
+[19-Jan-2016 11:09:59 UTC] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/functions.shortcodes.php on line 32
+[09-Jan-2017 15:16:29 CST6CDT] PHP Fatal error:  Call to undefined function __() in /home/saporitaliani/public_html/wp-admin/menu.php on line 23

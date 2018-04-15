@@ -1,1 +1,0 @@
-koulchi-zine

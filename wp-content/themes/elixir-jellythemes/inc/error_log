@@ -1,0 +1,27 @@
+[21-Feb-2016 12:50:57 UTC] PHP Fatal error:  Call to undefined function get_current_language() in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 15
+[21-Feb-2016 12:52:05 UTC] PHP Fatal error:  Call to a member function get_current_language() on a non-object in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 15
+[21-Feb-2016 13:19:29 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 26
+[21-Feb-2016 13:19:43 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE or '$' in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 26
+[21-Feb-2016 13:19:45 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_PAAMAYIM_NEKUDOTAYIM in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 26
+[21-Feb-2016 13:20:31 UTC] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_PAAMAYIM_NEKUDOTAYIM in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 26
+[30-Jul-2016 01:58:49 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[07-Aug-2016 11:38:58 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[07-Aug-2016 23:01:22 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[07-Aug-2016 23:01:34 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[09-Aug-2016 11:09:18 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[15-Aug-2016 17:26:49 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[21-Aug-2016 11:59:23 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[22-Aug-2016 19:44:07 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[22-Aug-2016 19:47:04 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[26-Aug-2016 23:47:23 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[30-Aug-2016 01:43:03 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[07-Sep-2016 03:02:22 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[08-Sep-2016 09:48:39 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[12-Sep-2016 20:43:27 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[14-Sep-2016 10:00:44 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[20-Sep-2016 12:19:03 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[22-Sep-2016 02:23:29 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[26-Sep-2016 10:17:09 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[07-Oct-2016 00:32:59 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[05-Nov-2016 10:33:19 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
+[07-Nov-2016 04:23:00 Etc/GMT] PHP Notice:  Undefined index: author in /home/saporitaliani/public_html/wp-content/themes/elixir-jellythemes/inc/mail.php on line 18
