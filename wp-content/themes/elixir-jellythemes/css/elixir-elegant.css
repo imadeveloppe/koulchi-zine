@@ -1431,7 +1431,7 @@ section.reservations h3.reservation-phone{
 	margin-bottom: 10px;
 }
 
-section.reservations p {
+section.reservations form p {
 	font-family: "Cabin", sans-serif;
 	font-weight: 500;
 	color: #7d7a7a;

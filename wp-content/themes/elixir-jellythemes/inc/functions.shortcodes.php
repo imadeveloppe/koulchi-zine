@@ -256,7 +256,7 @@
 		), $atts ) );
 		$return = '
 		<div id="maps" data-lat="' . esc_js($latitude) . '" data-lon="' . esc_js($longitude) . '" data-marker="' . esc_attr($marker_name) . '">
-            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+            <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCs0hlmp3BfvQAb5u7rNgcVEWXV5HnDtAc&sensor=false"></script>
             <div class="map-content">
                 <div class="wpgmappity_container inner-map" id="wpgmappitymap"></div>
             </div>
@@ -367,18 +367,29 @@
 		global $jellythemes;
 	   	return '<form action="' . get_template_directory_uri() . '/inc/reservation.php" method="post" id="reservationform" class="contact-form">
                             <div class="col-md-5 col-md-offset-1 jt_col column_container">    
-                                <p>Book a table</p>
+                                <p>' . __('Book a table', 'jellythemes') . '</p>
+
                                 <input name="emailto" type="hidden" value="' . $jellythemes['contact_email'] . '">
-                                <input type="date" id="date" name="date" placeholder="' . __('Date', 'jellythemes') . '" class="text date required" >
-                                <input type="time" id="time" name="time" placeholder="' . __('Time', 'jellythemes') . '" class="text time required" >
-                                <input type="text" id="party" name="party" placeholder="' . __('Party', 'jellythemes') . '" class="text party required" >
+                                <label>' . __('Date', 'jellythemes') . '</label>
+                                <input type="date" id="date" name="date" class="text date required" >
+
+                                <label>' . __('Time', 'jellythemes') . '</label>
+                                <input type="time" id="time" name="time" class="text time required" >
+
+                                <label>' . __('Number of places', 'jellythemes') . '</label>
+                                <input type="number" id="party" name="party" class="text party required" >
                             </div>
 
                             <div class="col-md-5 jt_col column_container">    
-                                <p>Contact Details</p>
-                                <input type="text" id="reservation_name" name="reservation_name" placeholder="' . __('Name', 'jellythemes') . '" class="text reservation_name required" >
-                                <input type="email" id="reservation_email" name="reservation_email" class="tex email required" placeholder="' . __('Email', 'jellythemes') . '" >
-                                <input type="text" id="reservation_phone" name="reservation_phone" placeholder="' . __('Phone', 'jellythemes') . '" class="text reservation_phone required">
+                                <p>' . __('Contact Details', 'jellythemes') . '</p>
+                                <label>' . __('Name', 'jellythemes') . '</label>
+                                <input type="text" id="reservation_name" name="reservation_name"  class="text reservation_name required" >
+
+                                <label>' . __('Email', 'jellythemes') . '</label>
+                                <input type="email" id="reservation_email" name="reservation_email" class="tex email required" >
+
+                                <label>' . __('Phone', 'jellythemes') . '</label>
+                                <input type="text" id="reservation_phone" name="reservation_phone" class="text reservation_phone required">
                             </div>
 
                             <div class="col-md-10 col-md-offset-1 jt_col column_container">    

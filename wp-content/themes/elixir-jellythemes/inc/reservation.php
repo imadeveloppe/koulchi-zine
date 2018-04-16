@@ -1,20 +1,19 @@
 <?php
 if(isset($_POST['reservation_email'])){
-		$mailTo = $_POST['emailto'];
-		$subject = "mail from web";
-		$body = "New message from web
-<br><br>
-FROM: ".$_POST['reservation_email']."<br>
-NAME: ".$_POST['reservation_name']."<br>
-PHONE: ".$_POST['reservation_phone']."<br>
-DATE: ".$_POST['date']."<br>
-TIME: ".$_POST['time']."<br>
-PARTY: ".$_POST['party']."<br>
-COMMENTS: ".$_POST['reservation_message']."<br>";	
+		$mailTo = "reservation@koulchizine.com";
+		$subject = "Nouvelle reservation";
+		$body = "
+<strong>Nom :</strong> ".$_POST['reservation_name']."<br>
+<strong>Email :</strong> ".$_POST['reservation_email']."<br>
+<strong>Telephone :</strong> ".$_POST['reservation_phone']."<br>
+<strong>Date :</strong> ".$_POST['date']."<br>
+<strong>Heure :</strong> ".$_POST['time']."<br>
+<strong>Nombre de place :</strong> ".$_POST['party']."<br><br>
+<strong>Commentaire :</strong> ".$_POST['reservation_message']."<br>";	
 		$headers = "To: Elixir <".$mailTo.">\r\n";
-		$headers .= "From: ".$_POST['author']." <".$_POST['reservation_email'].">\r\n";
-		$headers .= "Content-Type: text/html";
+		$headers .= "From: Réservation <no-replay@koulchizine.com>\r\n";
+		$headers .= "Content-Type: text/html;  charset=UTF-8";
 		//envio destinatario
-		$mail_success =  mail($mailTo, utf8_decode($subject), utf8_decode($body), $headers);		
+		$mail_success =  mail($mailTo, ($subject), utf8_decode($body), $headers);		
 }
 ?>  

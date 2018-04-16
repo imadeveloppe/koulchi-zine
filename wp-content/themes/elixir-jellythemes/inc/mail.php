@@ -3,22 +3,17 @@
 if(isset($_POST['email'])){ 
 
 $mailTo = $_POST['emailto'];
-$subject = "Email de www.saporitaliani.net" ;
-$from = "De";
-$name = "Nom";
-$comment = "Commentaire";
-$newMsg = "Nouveau message depuit saporitaliani.net";
- 
-$body = $newMsg. "<br><br>
-		".$from." : ".$_POST['email']."<br>
-		".$name." : ".$_POST['name']."<br><br>
-		".$comment." : ".$_POST['message']."<br>";
-
-$headers = "To: Solido <".$mailTo.">\r\n";
-$headers .= "From: ".$_POST['author']." <".$_POST['email'].">\r\n";
-$headers .= "Content-Type: text/html";
-//envio destinatario
-$mail_success =  mail($mailTo,utf8_decode($subject), utf8_decode($body), $headers);
+$subject = "Formulaire de contact";
+$body = "
+<strong>Nom :</strong> ".$_POST['name']."<br>
+<strong>Email :</strong> ".$_POST['email']."<br>
+<strong>Sujet :</strong> ".$_POST['subject']."<br><br>
+<strong>Message :</strong> ".$_POST['message']."<br>";	
+		$headers = "To: Koulchi Zine <".$mailTo.">\r\n";
+		$headers .= "From: Formulaire de contact <no-replay@koulchizine.com>\r\n";
+		$headers .= "Content-Type: text/html;  charset=UTF-8";
+		//envio destinatario
+		$mail_success =  mail($mailTo, ($subject), utf8_decode($body), $headers);
 
 } 
 ?> 
