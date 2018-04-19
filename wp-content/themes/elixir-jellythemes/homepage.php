@@ -1,5 +1,10 @@
 <?php /* Template Name: Home Page */ ?>
 <?php get_header(); ?>
+<style type="text/css">
+    #mask{
+        display: none!important
+    }
+</style>
 <?php while ( have_posts() ) : the_post(); ?>
 	<!-- BEGIN HOME SLIDER SECTION -->
     <section id="home-slider">
@@ -41,7 +46,14 @@
     <?php if (empty($video)): ?>
         <section id="<?php echo esc_attr($post->post_name); ?>" class="section <?php echo get_post_meta( $post->ID, '_jellythemes_section_type', true ); ?> <?php echo get_post_meta( $post->ID, '_jellythemes_section_color', true ); ?>" style="background-color:<?php echo get_post_meta( $post->ID, '_jellythemes_bg_color', true ); ?>; <?php echo (!empty($bg_url) ? 'background-image: url(' . $bg_url . ')' . (!empty($bg_url2) ? ', url(' . $bg_url2 . ')' : '') . ';'  : ''); ?>">
             <div class="<?php echo get_post_meta( $post->ID, '_jellythemes_section_width', true ); ?>">
-                <?php the_content(); ?> 
+                
+                <?php if(!empty(get_page_template_slug( $post->ID )) ): ?> 
+                        <?php include get_page_template_slug( $post->ID ); ?>
+                <?php else: ?>
+                    <?php the_content(); ?> 
+                <?php endif; ?>
+
+
             </div>
         </section>
     <?php else: ?>
@@ -58,5 +70,6 @@
 <?php $post = $back //restore post data?>
 
 <?php get_footer(); ?>
+
 </body>
 </html>
