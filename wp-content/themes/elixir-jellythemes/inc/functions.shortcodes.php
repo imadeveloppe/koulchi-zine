@@ -349,7 +349,7 @@
                      <textarea id="message" name="message" class="text area required" placeholder="' . __('Message', 'jellythemes') . '" rows="10"></textarea>
                 </div>
 
-                <div class="col-md-4 col-md-offset-4 jt_col column_container">    
+                <div class="col-md-6 col-md-offset-3 jt_col column_container">    
                 <div class="formSent">' . __('<strong>Your Message Has Been Sent!</strong> Thank you for contacting us.', 'jellythemes') . '</div> 
                 <input type="submit" class="button contact center" value="' . __('Submit', 'jellythemes') . '" >
                 </div>

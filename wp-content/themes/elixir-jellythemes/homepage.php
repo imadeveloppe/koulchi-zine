@@ -1,9 +1,9 @@
 <?php /* Template Name: Home Page */ ?>
 <?php get_header(); ?>
 <style type="text/css">
-    #mask{
+   /* #mask{
         display: none!important
-    }
+    }*/
 </style>
 <?php while ( have_posts() ) : the_post(); ?>
 	<!-- BEGIN HOME SLIDER SECTION -->

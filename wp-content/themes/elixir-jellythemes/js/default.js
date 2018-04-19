@@ -348,7 +348,7 @@ var $optionSets = $('nav.primary ul'),
         var point = jellythemes.color.length>0 ? 'pointer-' + jellythemes.color : 'pointer-' + jellythemes.style;
         var pointerUrl = jellythemes.theme_path + '/images/map/'+point+'.png'; // set your color pointer here! (pointer-blue/green/yellow/fucsia/purple/turquoise/red/orange.png)
         color = jellythemes.color.length>0 ? jellythemes.color : color;
-        switch(color) {
+        switch('black') {
             case ('bluegray'):
             var color = bluegray;
             var saturation = 100;

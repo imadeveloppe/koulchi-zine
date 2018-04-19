@@ -49,6 +49,7 @@
 							<div>
 								<?= get_the_post_thumbnail(get_the_ID(), 'large') ?> 
 						   		<h3><?php the_title() ?></h3>
+						   		<em style="color: #aaa;"><?php the_content() ?></em>
 							</div> 
 
 
