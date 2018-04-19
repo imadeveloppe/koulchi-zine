@@ -987,3 +987,8 @@ body.green  section {
 body.green  #equipeList, body.green  #partnersList{
     margin-bottom: 90px
 }
+@media only screen and (max-width: 767px){
+    body.green .list-menu .jt_col.vc_column_container.col-md-6 {
+        padding: 0;
+    }
+}
