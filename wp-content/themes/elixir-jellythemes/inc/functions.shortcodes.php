@@ -365,40 +365,48 @@
 		extract( shortcode_atts( array(
 		), $atts ) );
 		global $jellythemes;
-	   	return '<form action="' . get_template_directory_uri() . '/inc/reservation.php" method="post" id="reservationform" class="contact-form">
-                            <div class="col-md-5 col-md-offset-1 jt_col column_container">    
-                                <p>' . __('Book a table', 'jellythemes') . '</p>
+	   	return '<form action="' . get_template_directory_uri() . '/inc/reservation.php" method="post" id="reservationform" class="contact-form">   
 
-                                <input name="emailto" type="hidden" value="' . $jellythemes['contact_email'] . '">
-                                <label>' . __('Date', 'jellythemes') . '</label>
-                                <input type="date" id="date" name="date" class="text date required" >
+							    <input name="emailto" type="hidden" value="' . $jellythemes['contact_email'] . '">
+							    <div class="col-md-2"> 
+							        <label>' . __('Name', 'jellythemes') . '</label>
+							        <input type="text" id="reservation_name" name="reservation_name"  class="text reservation_name required" >
+							    </div>
 
-                                <label>' . __('Time', 'jellythemes') . '</label>
-                                <input type="time" id="time" name="time" class="text time required" >
+							    <div class="col-md-2">   
+							        <label>' . __('Email', 'jellythemes') . '</label>
+							        <input type="email" id="reservation_email" name="reservation_email" class="tex email required" >
+							    </div> 
 
-                                <label>' . __('Number of places', 'jellythemes') . '</label>
-                                <input type="number" id="party" name="party" class="text party required" >
-                            </div>
+							    <div class="col-md-2"> 
+							        <label>' . __('Phone', 'jellythemes') . '</label>
+							        <input type="text" id="reservation_phone" name="reservation_phone" class="text reservation_phone required">
+							    </div>
 
-                            <div class="col-md-5 jt_col column_container">    
-                                <p>' . __('Contact Details', 'jellythemes') . '</p>
-                                <label>' . __('Name', 'jellythemes') . '</label>
-                                <input type="text" id="reservation_name" name="reservation_name"  class="text reservation_name required" >
+							    <div class="col-md-2"> 
+							        <label>' . __('Date', 'jellythemes') . '</label>
+							        <input type="date" id="date" name="date" class="text date required" >
+							    </div>
 
-                                <label>' . __('Email', 'jellythemes') . '</label>
-                                <input type="email" id="reservation_email" name="reservation_email" class="tex email required" >
+							    <div class="col-md-2"> 
+							        <label>' . __('Time', 'jellythemes') . '</label>
+							        <input type="time" id="time" name="time" class="text time required" >
+							    </div>
 
-                                <label>' . __('Phone', 'jellythemes') . '</label>
-                                <input type="text" id="reservation_phone" name="reservation_phone" class="text reservation_phone required">
-                            </div>
+							    <div class="col-md-2"> 
+							        <label>' . __('Number of places', 'jellythemes') . '</label>
+							        <input type="number" id="party" name="party" class="text party required" >
+							    </div>
 
-                            <div class="col-md-10 col-md-offset-1 jt_col column_container">    
-                                <textarea id="reservation_message" name="reservation_message" class="text area required" placeholder="' . __('Message', 'jellythemes') . '" rows="6"></textarea>
-                            </div>
-                            <div class="col-md-4 col-md-offset-4 jt_col column_container">   
-                            <div class="formSent">' . __('<strong>Your Message Has Been Sent!</strong> Thank you for contacting us.', 'jellythemes') . '</div>  
-                                <input type="submit" class="button center" value="' . __('Make reservation', 'jellythemes') . '" >
-                            </div>
+							    <div class="col-md-12"> 
+							    	<div class="formSent"> 
+							        	' . __('<strong>Your Message Has Been Sent!</strong> Thank you for contacting us.', 'jellythemes') . '
+							    	</div> 
+							    </div> 
+
+							    <div class="col-md-12">  
+							            <input type="submit" class="button center" value="' . __('Make reservation', 'jellythemes') . '" > 
+							    </div> 
                         </form>
                         <div class="col-md-12 jt_col column_container">
                         <div class="voffset60"></div>

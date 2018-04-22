@@ -8,8 +8,7 @@ if(isset($_POST['reservation_email'])){
 <strong>Telephone :</strong> ".$_POST['reservation_phone']."<br>
 <strong>Date :</strong> ".$_POST['date']."<br>
 <strong>Heure :</strong> ".$_POST['time']."<br>
-<strong>Nombre de place :</strong> ".$_POST['party']."<br><br>
-<strong>Commentaire :</strong> ".$_POST['reservation_message']."<br>";	
+<strong>Nombre de place :</strong> ".$_POST['party'];	
 		$headers = "To: Elixir <".$mailTo.">\r\n";
 		$headers .= "From: Réservation <no-replay@koulchizine.com>\r\n";
 		$headers .= "Content-Type: text/html;  charset=UTF-8";

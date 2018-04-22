@@ -37,6 +37,10 @@
     </section>
     <!-- END HOME SLIDER SECTION -->
 <?php endwhile; ?>
+
+
+
+
 <?php $back = $post //backup post data?>
 <?php $child_sections = new WP_Query(array('post_type' => 'page', 'post_parent' => $post->ID, 'orderby' => 'menu_order', 'order' =>'DESC', 'posts_per_page' => -1)); ?>
 <?php while ($child_sections->have_posts() ) : $child_sections->the_post(); ?>

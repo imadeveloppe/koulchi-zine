@@ -996,3 +996,29 @@ body.green  #equipeList, body.green  #partnersList{
         width: auto;
     }
 }
+
+@media (min-width: 992px){
+    form#reservationform .col-md-2{ 
+        padding-right: 0;
+        padding-left: 15px;
+    }
+}
+#reservationform input.text, #reservationform input.email, #reservationform input.date, #reservationform input.time {
+    height: 48px;
+    border: 0;
+}
+.reservations #reservationform  input.button.center { 
+    max-width: 315px;
+}
+.reservations #reservationform  label { 
+        display: block;
+    text-align: left;
+    color: white;
+}
+div.pp_default .pp_description { 
+    display: none!important;
+}
+
+.reservations form#reservationform input.button.center { 
+    margin-top: 20px;
+}
