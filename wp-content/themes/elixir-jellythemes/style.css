@@ -912,7 +912,7 @@ section#menu:before {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #000000ab;
+    background: #ffffff;
     left: 0;
     top: 0;
 }
@@ -1021,4 +1021,29 @@ div.pp_default .pp_description {
 
 .reservations form#reservationform input.button.center { 
     margin-top: 20px;
+}
+#menu .block-categorie {
+    margin-bottom: 80px;
+}
+#menu .block-categorie  .list-menu {
+    padding-left: 15px;
+    margin-top: 0;
+}
+#menu .block-categorie .jt_col.vc_column_container {
+    min-height: 42px;
+    padding-right: 62px;
+    border-bottom: 1px dashed #6eab7c;
+    padding-top: 19px;
+}
+
+#menu .block-categorie .jt_col.vc_column_container p{
+    color: #848484;
+}
+
+#menu .block-categorie .jt_col.vc_column_container strong{
+    font-size: 15px;
+}
+
+#footer .social li .icon {
+    background: #69a576; 
 }

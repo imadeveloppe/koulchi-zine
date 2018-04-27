@@ -1,11 +1,3 @@
-# Limitation d'accès -----------------------------------------------------------
-AuthUserFile /home/sites/koulchizine.com/public_html/.htpassword 
-AuthName "Restricted Access"
-AuthType Basic
-<limit GET>
-require valid-user
-</Limit>
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On

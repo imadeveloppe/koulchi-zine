@@ -29,7 +29,7 @@
 	    float: none;
 	    position: absolute;
 	    right: -1px;
-	    bottom: 2px;
+	    bottom: -1px;
 	    background: #6fab7d;
 	    color: #fff;
 	    padding: 2px 10px;
@@ -51,40 +51,55 @@
 					</h2>
 				</div>
 			</div>  
-			<?php 
-				$partners = new WP_Query(array(
-						'post_type' => 'menu',  
-						'orderby' => 'menu_order', 
-						'order' =>'DESC', 
-						'posts_per_page' => -1
-				)); 
+
+			<?php  
+				$terms = get_terms( array( 
+				    'taxonomy' => 'categories_menu'
+				) );
 			?> 
-				
-			<div class="list-menu">
+			<?php foreach ($terms as $key => $term): ?>
 
-					<center>
-						<?php the_content() ?>
-					</center>
+			<div class="block-categorie">
+				<h2><?= $term->name ?></h2>
+				<?php 
+					$partners = new WP_Query(array(
+							'post_type' => 'menu',  
+							'orderby' => 'menu_order', 
+							'order' =>'DESC', 
+							'posts_per_page' => -1,
+							'tax_query' => array(
+							    array(
+								    'taxonomy' => 'categories_menu',
+								    'field' => 'term_id',
+								    'terms' => array($term->term_id)
+							    )
+							)
+					)); 
+				?> 
+					
+				<div class="list-menu">
  
-					<?php while ($partners->have_posts() ) : $partners->the_post(); ?>
+	 
+						<?php while ($partners->have_posts() ) : $partners->the_post(); ?>
 
-						 
-						<div class="jt_col vc_column_container col-md-6">
-							<div class="wpb_wrapper">
-								<?= get_the_post_thumbnail(get_the_ID(), 'thumbnail') ?> 
-								 <ul>
-								 	<li>
-					                	<?php the_title() ?>
-					                	<div class="detail"><?php the_content() ?>
-					                	<span class="price"><?php the_field('price') ?> DH</span></div>
-					            	</li>
-					            </ul>
-					        </div>
-					   	</div>
+							 
+							<div class="jt_col vc_column_container" style="position: relative;">  
+								<strong><?php the_title() ?></strong>
+								<p>
+									<?php the_content() ?>
+									<?php if( get_field('price') ): ?>
+										<span class="price"><?php the_field('price') ?> MAD</span>
+									<?php endif ?>
+								</p> 
+						   	</div>
 
-					 <?php endwhile; ?>
-					 <?php wp_reset_query(); ?> 
+						 <?php endwhile; ?>
+						 <?php wp_reset_query(); ?> 
+				</div>
 			</div>
+				
+			<?php endforeach ?>
+				
 
 		</div>
 	</div> 
